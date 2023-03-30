@@ -1,0 +1,106 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #183153;
+}
+
+header {
+    padding-top: 30px;
+}
+
+nav {
+    background-color: crimson;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.list-item {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list-item:hover,
+.fa-solid:hover {
+    color: #00ffe1;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.modal-quvonchbek {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    background-color: #183153;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 6px;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.inp-text {
+    outline: none;
+    background-color: #183153;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0 10px 35px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.inp-btn1,
+.inp-btn2 {
+    background-color: #183153;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 35px;
+    width: 100%;
+    border: 1px solid #fff;
+    transition: .02s;
+}
+
+.inp-btn1:hover,
+.inp-btn2:hover {
+    background-color: #fff;
+    color: #183153;
+    transition: .02s;
+}
